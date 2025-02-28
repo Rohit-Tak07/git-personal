@@ -1,0 +1,43 @@
+step follow on the step up of manager machine 
+ 
+ ip a
+    2  apt -get update
+    3  apt-get update
+    4  poweroff
+    5  whoami
+    6  vim /etc/host
+    7  clrscr
+    8  ip a
+    9  ip -a
+   10  ip a
+   11  cd /etc/
+   12  ll
+   13  vim hosts
+   14  hostnamectl set-hostname manager
+   15  vim hosts
+   16  hostnamectl
+   17  vim hostname
+   18  hostname
+   19  cd
+   20  swapon -s
+   21  swapoff -a
+   22  swapon -s
+   23  vim /etc/fstab
+   24  mount -a
+   25  apt-get update
+   26  vim common.sh
+   27  sh common.sh
+   28  reboot
+   29  ip a
+   30  vim manager.sh
+   31  sh manager.sh
+   32  cd .kube/
+   33  ll
+   34  cat config
+   35  cd
+   36  kubectl get nodes
+   37  vim calico.yaml
+   38  kubectl apply -f calico.yaml
+   39  kubectl get nodes
+   40  kubectl -n kube-system get pods
+   41  history
